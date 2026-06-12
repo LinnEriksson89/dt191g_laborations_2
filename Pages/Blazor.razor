@@ -1,0 +1,15 @@
+@page "/blazor"
+
+<PageTitle>Blazor</PageTitle>
+
+<h1>Blazor</h1>
+<p>Blazor är ett .NET-ramverk som används för att bygga appliknande webbsidor. Blazor är helt C#-baserat och även logiken i webbläsare och interaktivitet byggs med C#. Blazor kommer från en sammanslagning av orden "Browser" och "Razor".</p>
+
+@code {
+    private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+}
